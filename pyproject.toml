@@ -31,7 +31,7 @@ dynamic = ["version"]
 version = {attr = "assetuniverse.VERSION"}
 
 [tool.semantic_release]
-branch = "main"
+branch = "master"
 build_command = "python -m build"
 dist_path = "dist"
 remove_dist = true
